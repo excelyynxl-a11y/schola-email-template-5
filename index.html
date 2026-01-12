@@ -20,7 +20,7 @@
 
         <!-- title -->
         <div class="title">
-            <img class="announcement-image" src="assets/schola-announcement.png">
+            <span class="announcement-emoji">📢</span>
             <h3>{school_name} Announcement </h3>
         </div>
 
@@ -50,10 +50,24 @@
 
         <!-- footer with academy's 'support email, contact, website + Schola's 'copyright -->
         <div class="footer">
-            <div class="contacts">
-                Support Email: <a href="#" class="academy-email"> {support_email} </a> <br>
-                Contact: <a href="#" class="academy-number"> {support_contact} </a> <br>
-                Website: <a href="#" class="academy-website"> {url} </a>
+            <div class="contacts bubbly-contacts">
+                <div class="contact-item">
+                    <span class="icon">💌</span>
+                    <span>Support Email:</span>
+                    <a href="#" class="academy-email">{support_email}</a>
+                </div>
+
+                <div class="contact-item">
+                    <span class="icon">📞</span>
+                    <span>Contact:</span>
+                    <a href="#" class="academy-number">{support_contact}</a>
+                </div>
+
+                <div class="contact-item">
+                    <span class="icon">🌐</span>
+                    <span>Website:</span>
+                    <a href="#" class="academy-website">{url}</a>
+                </div>
             </div>
 
             <div class="copyright">
