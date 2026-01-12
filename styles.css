@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 18px 24px;
-    background: #f3a594;
+    background: #f8d56d;
 }
 
 .logo img {
@@ -66,7 +66,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #1f2937;
-    background: #f67b60;
+    background: #e34d55;
     padding: 18px 22px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
@@ -128,7 +128,7 @@ body {
 }
 
 .bubbly-contacts {
-    background: #f3a594;
+    background: #b5cf51;
     padding: 18px 22px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
