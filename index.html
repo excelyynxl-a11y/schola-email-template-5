@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Schola Email Template 5</title>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Schola banner -->
+        <div class="header">
+            <a href="#" class="logo">
+                <img src="assets/schola-logo.png" href="#">
+            </a>
+            <a href="#" class="link-to-website">
+                View in browser
+            </a>
+        </div>
+
+        <!-- title -->
+        <div class="title">
+            <img class="announcement-image" src="assets/schola-announcement.png">
+            <h3>{school_name} Announcement </h3>
+        </div>
+
+        <!-- main content: greetings + invoice received message + automated message -->
+        <div class="content">
+            <p class="greeting">
+                Dear, <span> {parent_name} </span>
+            </p>
+            <p class="message">
+                {announcement_message}
+            </p>
+            <p class="automated-messsage">
+                This is an automated message from Schola system.
+                No reply is needed.
+            </p>
+        </div>
+
+        <!-- regards from academy -->
+        <div class="signature">
+            <p>
+                Best regards,
+            </p>
+            <p>
+                {school_name}
+            </p>
+        </div>
+
+        <!-- footer with academy's 'support email, contact, website + Schola's 'copyright -->
+        <div class="footer">
+            <div class="contacts">
+                Support Email: <a href="#" class="academy-email"> {support_email} </a> <br>
+                Contact: <a href="#" class="academy-number"> {support_contact} </a> <br>
+                Website: <a href="#" class="academy-website"> {url} </a>
+            </div>
+
+            <div class="copyright">
+                <p class="email-sent">
+                    Email sent by Schola.one 
+                </p>
+                <p class="all-rights-reserved">
+                    Copyright © 2026 Schola.one. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
